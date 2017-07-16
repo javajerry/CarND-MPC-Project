@@ -1,5 +1,5 @@
 <H2> The Model </H2>
-Model Predictive Control (MPC) is an optimization model which tries to minimize the difference between the model predicted value and the reference trajectory path which includes distance of the vehicle from the trajectory as well as vehicle orientation and trajectory orientation.
+Model Predictive Control (MPC) is an optimization control model which tries to minimize the difference between the model predicted value and the reference trajectory path which includes distance of the vehicle from the trajectory as well as vehicle orientation and trajectory orientation.
 MPC is based on the following <br>
   1> Kinematic Vehicle Model<br>
   This model defines the state of the vehicle. state=[x, y, ψ, v] where x,y is the position of the car. ψ (psi) is the orientation with respect to the x-axis. v is the velocity of the vehicle.<br>
