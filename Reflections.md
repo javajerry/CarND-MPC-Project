@@ -1,8 +1,8 @@
 <H2> The Model </H2>
-MPC is based on the following 
-  1> Kinematic Vehicle Model
-    
-  2> Dynamic Vehicle Model
+MPC is based on the following <br>
+  1> Kinematic Vehicle Model<br>
+    <img src="img/kinematic.png">
+  2> Dynamic Vehicle Model<br>
   3> Actuate
   4> Actuator Constraints
 <H2> Timestep Length and Elapsed Duration (N & dt) </H2>
