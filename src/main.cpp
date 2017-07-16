@@ -124,14 +124,8 @@ int main() {
           const double dt = 0.1;
           const double Lf = 2.67;
 
-          // current state must be in vehicle coordinates with the delay factored in
-          // kinematic model is at play here
-          // note that at current state at vehicle coordinates:
-          // px, py, psi = 0.0, 0.0, 0.0
-          // note that in vehicle coordinates it is going straight ahead the x-axis
-          // which means position in vehicle's y-axis does not change
-          // the steering angle is negative the given value as we have
-          // as recall that during transformation we rotated all waypoints by -psi
+          // got this tip from the foum to apply the latency to the current
+          // state of the vehicle.
           const double current_px = 0.0 + v * dt;
           const double current_py = 0.0;
           const double current_psi = 0.0 + v * (-delta) / Lf * dt;
